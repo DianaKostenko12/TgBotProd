@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TgBot
+﻿namespace TgBot
 {
-    internal class AppConstants
+    public class AppConstants
     {
+        public static string Domain { get; } = "diana-api.herokuapp.com"; // "localhost:7235";
     }
 }
